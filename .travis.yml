@@ -1,6 +1,8 @@
 language: bash
 
 before_install:
+  - sudo apt install update
+  - sudo apt install upgrade
   - sudo apt install -y shellcheck p7zip-full imagemagick ghostscript 
 
 script:
